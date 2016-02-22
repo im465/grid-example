@@ -1,12 +1,13 @@
 .page {
 	position: relative;
-	width: 960px;
+	width: 90%;
 	height: 100vh;
 	margin: 0 auto;
+	background: rgba(180, 200, 180, 0.25);
 }
 
 .blog {
-	width: 900px;
+	width: 93.75%; /* 900px / 960px */
 	height: 100vh;
 	margin: 40px auto;
 	background: rgba(200, 200, 200, 0.5);
@@ -19,14 +20,14 @@
 
 .main {
 	float: left;
-	width: 566px;
+	width: 62.8888%; /* 566px / 900px */
 	height: 600px;
 	background: rgba(180, 180, 200, 0.5);
 }
 
 .other {
 	float: right;
-	width: 331px;
+	width: 36.7777%; /* 331px / 900px */
 	height: 300px;
 	background: rgba(200, 180, 180, 0.5);
 }
