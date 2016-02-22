@@ -5,6 +5,32 @@
 	margin: 0 auto;
 }
 
+.blog {
+	width: 900px;
+	height: 100vh;
+	margin: 40px auto;
+	background: rgba(200, 200, 200, 0.5);
+}
+
+.section-title {
+	background: rgba(200, 200, 200, 0.5);
+	height: 100px;
+}
+
+.main {
+	float: left;
+	width: 566px;
+	height: 600px;
+	background: rgba(180, 180, 200, 0.5);
+}
+
+.other {
+	float: right;
+	width: 331px;
+	height: 300px;
+	background: rgba(200, 180, 180, 0.5);
+}
+
 body.show-grid .page::after {
 	content: "";
 	position: absolute;
