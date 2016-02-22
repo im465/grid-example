@@ -1,4 +1,17 @@
+h1 {
+	font-size: 1.5em; /* 24px / 16px */
+	font-family: cambria, georgia, serif;
+}
+
+h1 a {
+	font: bold 0.6875rem calibri, optima, arial, sans-serif; /* 11px / 16px (root-ems sizing) */
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 .page {
+	font-size: 100%;
 	position: relative;
 	width: 90%;
 	height: 100vh;
