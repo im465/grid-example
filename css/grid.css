@@ -47,6 +47,18 @@ h1 a {
 	background: rgba(200, 180, 180, 0.5);
 }
 
+.inline-block-main {
+	display: inline-block;
+	width: 62.8888%; /* 566px / 900px */
+	background: rgba(180, 180, 200, 0.5);
+}
+
+.inline-block-other {
+	display: inline-block;
+	width: 36.7777%; /* 331px / 900px */
+	background: rgba(200, 180, 180, 0.5);
+}
+
 body.show-grid .page::after {
 	content: "";
 	position: absolute;
