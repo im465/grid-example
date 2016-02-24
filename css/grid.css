@@ -68,3 +68,21 @@ body.show-grid .page::after {
 	bottom: 0;
 	background: url('../img/grid.png');
 }
+
+.float {
+	float: left;
+}
+
+.retina {
+	width: 150px;
+	height: auto;
+}
+
+figure {
+	padding: 10px;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
